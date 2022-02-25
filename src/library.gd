@@ -10,8 +10,13 @@ extends Node
 func _ready():
 	pass # Replace with function body.
 
+<<<<<<< HEAD
 func uppercase(thing):
 	return thing.to_upper()
+=======
+func sha256(thing):
+	return thing.sha256_text()
+>>>>>>> 901408c (added sha256)
 
 func echo(thing):
 	return thing
